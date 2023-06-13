@@ -4,6 +4,8 @@ import { HomeContext } from "./HomeContext";
 import { useFormik } from "formik";
 
 const AddHome = () => {
+  console.log("akhsvdjABS");
+
   const { addHome } = useContext(HomeContext);
   const [homeData, setHomeData] = useState({
     title: "",
